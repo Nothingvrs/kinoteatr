@@ -1,0 +1,40 @@
+.input {
+	height: 40px;
+	background: transparent;
+  border: none;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: left;
+}
+
+.input::placeholder {
+	color: rgb(71, 80, 105);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	text-align: left;
+}
+
+.wrapper {
+	width: 312px;
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+
+	box-sizing: border-box;
+	border: 1px solid rgb(50, 59, 84);
+	border-radius: 12px;
+	background: rgba(0, 0, 0, 0.1);
+	padding: 12px 16px 12px 16px;
+	}
+
+.undisplay {
+	display: none;
+}
+
+.invalid {
+	border: 1px solid red;
+	background: rgb(113,13,13);
+}
