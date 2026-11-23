@@ -1,4 +1,4 @@
-import styles from'./Header.module.css';
+import styles from './header.module.css';
 import { headerProps } from './header.props';
 
 function Header({ children }: headerProps) {
